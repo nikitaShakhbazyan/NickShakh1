@@ -1,15 +1,15 @@
 @font-face {
     font-family: gothic;
-    src: url(/my-prtf/fonts/gothic.ttf);
+    src: url(https://nikitashakhbazyan.github.io/NickShakh1/my-prtf/fonts/gothic.ttf);
 }
 
 @font-face {
     font-family: myfnt;
-    src: url(/my-prtf/fonts/fnt-nmb1.otf);
+    src: url(https://nikitashakhbazyan.github.io/NickShakh1/my-prtf/fonts/fnt-nmb1.otf);
 }
 @font-face {
     font-family: myfnt3;
-    src: url(/my-prtf/fonts/fnt-nmb3.otf);
+    src: url(https://nikitashakhbazyan.github.io/NickShakh1/my-prtf/fonts/fnt-nmb3.otf);
 }
 
 body {
