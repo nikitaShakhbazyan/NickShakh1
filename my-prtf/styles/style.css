@@ -1,0 +1,317 @@
+@font-face {
+    font-family: gothic;
+    src: url(/my-prtf/fonts/gothic.ttf);
+}
+
+@font-face {
+    font-family: myfnt;
+    src: url(/my-prtf/fonts/fnt-nmb1.otf);
+}
+@font-face {
+    font-family: myfnt3;
+    src: url(/my-prtf/fonts/fnt-nmb3.otf);
+}
+
+body {
+    background: rgb(85,5,97);
+    background: radial-gradient(circle, rgba(85,5,97,1) 10%, rgba(110,31,128,1) 50%, rgba(66,3,79,1) 90%);
+    /* height: 3000px; */
+}
+header {
+    /* background-color: blue; */
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.logo-div {
+    width: 30%;
+    height: 100%;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo-div h1 {
+    font-family: gothic;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: wheat;
+}
+.logo-div h3 {
+    font-family: myfnt ;
+    color: wheat;
+    font-size: 25px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+nav {
+    width: 65%;
+    height: 100%;
+    /* background-color: grey; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+#nav-div {
+    height: 100%;
+    width: 90%;
+    /* background-color: greenyellow; */
+    justify-content: space-around;
+    display: none;
+    align-items: center;
+}
+#nav-div a {
+    color: wheat;
+    font-family: Gothic ;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 20px;
+    letter-spacing: 7px;
+}
+#nav-div a:hover {
+    color: rgb(177, 174, 170);
+}
+.brgr {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+}
+#js {
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+    /* border: 2px solid beige; */
+    padding: 5px 20px;
+    border-radius: 30px;
+    animation: js;
+    animation-duration: 7s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+}
+#js:hover {
+    color: rgb(203, 198, 198);
+    background-color: rgb(207, 203, 203, 0.4);
+}
+@keyframes js {
+    0% {border: red 3px solid;}
+    30% {border: green 3px solid;}
+    50% {border: blue 3px solid;}
+    75% {border: yellowgreen 3px solid;}
+    100% {border: grey 3px solid;}
+}
+
+main {
+    height: 1500px;
+}
+
+
+
+.js-div-nav {
+    /* animation: js; */
+    display: flex;
+    justify-content: right;
+
+}
+
+.main1 {
+    width: 100%;
+    height: 700px;
+    /* border: 2px solid gray; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#pixel-img {
+    width: 300px;
+    height: 300px;
+}
+article {
+    font-family: gothic;
+    color: white;
+    font-size: 35px;
+    width: 60%;
+}
+.main2 {
+    width: 100%;
+    height: 600px;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.main2 h2 {
+    color: white;
+    font-family: myfnt;
+    letter-spacing: 15px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.skills-div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.main2-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main2-div h1 {
+    color: wheat;
+    font-family: myfnt3;
+    letter-spacing: 8px;
+    font-size: 50px;
+    border: 2px solid wheat;
+    padding: 20px;
+    border-radius: 20px;
+    animation: border;
+    animation-duration: 7s;
+    animation-timing-function:ease-in-out;
+    animation-iteration-count: infinite;
+}
+@keyframes border {
+    0% {border: red 4px solid; transform: translateX(0%);}
+    30% {border: green 4px solid;  transform: translateX(40%);}
+    50% {border: blue 4px solid; transform: translateY(-40%);}
+    75% {border: yellowgreen 4px solid;transform: translateY(40%);}
+    100% {border: grey 4px solid; transform: translateX(0);}
+}
+
+.main2-div h3 {
+    color: tan;
+    font-family: myfnt3;
+    letter-spacing: 12px;
+    font-size: 25px;
+
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    /* background-color: rgb(0, 0, 0, 0.4); */
+    width: 100%;
+}
+.footer-div {
+    width: 100%;
+    height: 30%;
+    /* background-color: gray; */
+    text-align: center;
+}
+.footer-div h1 {
+    font-family: gothic;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    color: white;
+
+}
+.footer-socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 60%;
+    align-items: center;
+}
+.footer-socials a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: myfnt3;
+    letter-spacing: 5px;
+    font-size: 24px;
+    border: 2px solid wheat;
+    border-radius: 30%;
+    padding: 10px;
+
+
+}
+.footer-socials a:hover {
+    background-color: rgb(211, 208, 208, 0.5);
+}
+
+
+
+
+
+
+
+
+@media (min-width : 300px) and (max-width : 870px) {
+    body {
+        min-width: 700px;
+        height: auto;
+    }
+    
+    header {
+        display: flex;
+        justify-content: space-around;
+        min-width: 700px;
+
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: auto;
+    }
+    .main1 {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+    .main1 article {
+        font-size: 30px;
+    }
+    .main2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 1000px;
+    }
+    .main2-div {
+        display: flex;
+        justify-self: center;
+        align-items: center;
+    }
+    .main2-div h3 {
+        width: 90%;
+        font-size: 40px;
+
+    }
+    .main2 .skills-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills-div h2 {
+        font-size: 40px;
+        letter-spacing: 10px;
+    }
+    footer {
+        height: auto;
+    }
+    .footer-socials {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        /* justify-content: space-around; */
+        margin-bottom: 50px;
+    }
+
+}
