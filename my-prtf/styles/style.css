@@ -18,7 +18,7 @@ body {
     /* height: 3000px; */
     animation: body1;
     animation-timing-function: ease-in-out;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-iteration-count: infinite;
 }
 @keyframes body1 {
