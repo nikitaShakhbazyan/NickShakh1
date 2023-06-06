@@ -24,9 +24,17 @@ body {
 @keyframes body1 {
     0% { background: rgb(85,5,97);
         background: radial-gradient(circle, rgba(85,5,97,1) 10%, rgba(110,31,128,1) 50%, rgba(66,3,79,1) 90%); ;}
+    
+        25% { background: rgb(70,5,97);
+            background: radial-gradient(circle, rgba(65,5,97,1) 10%, rgba(95,31,128,1) 50%, rgba(86,3,79,1) 90%); ;}
+
     50% { background: rgb(55,5,97);
         background: radial-gradient(circle, rgba(55,5,97,1) 10%, rgba(80,31,128,1) 50%, rgba(40,3,79,1) 90%);}
-        100% { background: rgb(125,5,97);
+
+    75% { background: rgb(100,5,97);
+        background: radial-gradient(circle, rgba(115,5,97,1) 10%, rgba(110,31,128,1) 50%, rgba(76,3,79,1) 90%); ;}
+
+    100% { background: rgb(125,5,97);
             background: radial-gradient(circle, rgba(125,5,97,1) 10%, rgba(140,31,128,1) 50%, rgba(86,3,79,1) 90%);}
 }
 
