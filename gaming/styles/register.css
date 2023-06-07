@@ -1,0 +1,212 @@
+@font-face {
+    font-family: "myfont";
+    src: url(https://nikitashakhbazyan.github.io/NickShakh/gaming/font/myfont.otf);
+}
+@font-face {
+    font-family:"myfont2";
+    src: url(https://nikitashakhbazyan.github.io/NickShakh/gaming/font/myfont2.ttf);
+}
+
+@font-face {
+    font-family: "myfont3";
+    src: url(https://nikitashakhbazyan.github.io/NickShakh/gaming/font/myfont3.otf);
+}
+
+body {
+    margin: 0;
+    background-image: url(https://images.hdqwalls.com/wallpapers/three-face-dragon-4k-76.jpg);
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 2%, rgba(148,15,159,1) 89%);   */
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background: rgb(7,0,121);
+    background: linear-gradient(0deg, rgba(7,0,121,0.6) 0%, rgba(84,174,184, 0.6) 52%, rgba(38,11,172, 0.6) 100%);
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    border-radius:10px ;
+    border: 3px solid mediumseagreen;
+}
+nav {
+    width: 70%;
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    float: right;
+
+}
+nav a {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: 3px solid gold;
+    padding: 5px;
+    font-family: 'myfont3';
+    border-radius: 10px;
+}
+nav a:hover {
+    color: black;
+    background-color: wheat;
+}
+.navdiv {
+    width: 25%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    
+}
+main {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+main h1 {
+    font-size: 60px;
+    font-family: 'myfont2';
+    color: goldenrod;
+    animation-name: color1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-color:rgb(128, 128, 128, 0.5);
+    border-radius: 15px;
+}
+@keyframes color1 {
+    0% {color: rgb(98, 128, 0);}
+    20% {color: greenyellow;}
+    40% {color: goldenrod;}
+    80% {color: yellow;}
+}
+main p {
+    width: 80%;
+    border: 2px purple solid;
+    height: 4px;
+    background-color: gold;
+}
+.maindiv {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    border-radius: 15px;
+}
+input {
+    justify-content: center;
+    width: 400px;
+    align-items: center;
+    height: 50px;
+    border: 4px green solid;
+    border-radius: 10px;
+}
+#input-btn {
+    background-color: transparent;
+    width: 150px;
+    border: 4px solid greenyellow;
+    color: white;
+    font-weight: solid;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+#input-btn:hover {
+    border: 6px solid greenyellow;
+    color: greenyellow;
+    cursor:pointer;
+    font-size: 15px;
+}
+::placeholder {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+footer {
+    width: 100%;
+    background: rgb(7,0,121);
+    background: linear-gradient(0deg, rgba(7,0,121,0.6) 0%, rgba(84,174,184, 0.6) 52%, rgba(38,11,172, 0.6) 100%);
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius:10px ;
+    border: 3px solid mediumseagreen;
+}
+.main-footer {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    justify-content: space-around;
+}
+.socials-footer {
+    width: 100%;
+    height: 20%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-div {
+    margin-top: 10px;
+    width: 20%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 2px solid gold;
+    border-radius: 10px;
+}
+.footer-div a {
+    color: white;
+    text-decoration: none;
+    width: auto;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+
+}
+.footer-div a:hover {
+    color:rgb(201, 196, 196) ;
+}
+.socials-footer a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+
+}
+.socials-footer a:hover {
+    color: rgb(201, 196, 196);
+}
+footer p {
+    color: yellow;
+    font-family: 'myfont2';
+    font-size: 14px;
+}
+footer h1 {
+    font-family: 'myfont';
+}

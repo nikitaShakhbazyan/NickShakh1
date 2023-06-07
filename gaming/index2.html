@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://nikitashakhbazyan.github.io/NickShakh/gaming/styles/style2.css">
+</head>
+<body>
+    <header>
+        <div class="navdiv"><h1>"Game Logo"</h1></div>
+        <nav>
+            <a href="index.html">Back to Main</a>
+            <a href="register.html">Register</a>
+            <a href="aboutus.html">About Us</a>
+            <a href="gameCreation.html">History</a>
+            <a href="contactUs.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <div class="maindiv">
+            <div class="main-div-input">
+                <h2>Login</h2>
+                <form action="" >
+                    <input type="text" name="" id="login" placeholder="Your username">
+                </form>
+            </div>
+            <div class="main-div-input">
+                <h2>Password</h2>
+                <form action="" > 
+                <input type="password" name="" id="password" placeholder="Your Password">
+            </form>
+            <br>
+            <input type="button" id="button" value="Press" onclick="password()">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="under-divfooter">
+            <input type="email" placeholder="Newsletter,type your Gmail" name="" id="footer-input">
+            <input type="button" value="Press" id="footer-button">
+        </div>
+        <div class="div-row-footer">
+
+       <div style="width: 40%;" class="divfooter">
+        <h3>About the game</h3>
+        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe minima eligendi exercitationem, libero dignissimos inventore?
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe voluptatum aperiam perferendis expedita excepturi atque ratione sint. Minima tenetur rem quas quidem, corrupti accusantium beatae nesciunt nobis amet provident quisquam.
+        </article>
+    </div>
+
+       <div class="divfooter">
+        <h3>Socials</h3>
+        <a href="">Instagram</a>
+        <a href="">Twitter</a>
+        <a href="">Facebook</a>
+        <a href="">Gmail</a>
+       </div>
+
+       <div class="divfooter">
+        <h1>Author and creator</h1>
+        
+        <p>All rights reserved.
+            All trademarks are the property of their respective owners.</p>
+        <a id="footerContactA" href="">Contact</a>
+       </div>
+    </div>
+    <div class="last-div">Product By NickShakh</div>
+    </footer>
+    <script >
+            function password() {
+            var username = document.getElementById("login").value;
+            var password = document.getElementById("password").value;
+            event.preventDefault();
+            if (username == "log" && password =="pass"){ 
+            window.location.href="loginSuccess.html"
+        } else {
+            window.location.href="loginFailed.html"
+        }
+
+    }
+    </script>
+    
+</body>
+</html>
