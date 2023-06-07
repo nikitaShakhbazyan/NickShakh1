@@ -5,26 +5,24 @@ body {
     flex-direction: column;
     /* background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(63,94,251,1) 2%, rgba(148,15,159,1) 89%); */
-    background-image: url(https://a-static.besthdwallpaper.com/night-shining-stars-background-wallpaper-1280x1024-54591_32.jpg);
-    /* background-repeat:repeat-y; */
-    /* background-size: cover; */
-    background-position: center;
+    background: rgb(5,78,97);
+    background: radial-gradient(circle, rgba(5,78,97,1) 10%, rgba(31,64,128,1) 50%, rgba(3,68,79,1) 90%); 
     margin: 0 ;
 
 
 }
 @font-face {
     font-family: "myfont";
-    src: url(https://nikitashakhbazyan.github.io/NickShakh/gaming/font/myfont.otf);
+    src: url(/gaming/font/myfont.otf);
 }
 @font-face {
     font-family:"myfont2";
-    src: url(https://nikitashakhbazyan.github.io/NickShakh/gaming/font/myfont2.ttf);
+    src: url(/gaming/font/myfont2.ttf);
 }
 
 @font-face {
     font-family: "myfont3";
-    src: url(https://nikitashakhbazyan.github.io/NickShakh/gaming/font/myfont3.otf);
+    src: url(/gaming/font/myfont3.otf);
 }
 
 header {
@@ -141,6 +139,10 @@ main {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    /* background-image: url(https://cdn.wallpapersafari.com/96/4/I9kKDG.jpg);
+    background-repeat:no-repeat;
+    background-size: ;
+    background-position: center; */
 }
 main h1 {
     color: rgb(212, 188, 188);
@@ -251,7 +253,7 @@ header a:hover {
 footer {
     border: 7px solid gold;
     border-radius: 15px;
-    background-color: rgb(0, 0, 255, 0.3);
+    background-color: rgb(0, 0, 255, 0.1);
     height: 400px;
     width: 100%;
     margin-top: 20px;

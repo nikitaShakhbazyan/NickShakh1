@@ -1,22 +1,22 @@
 @font-face {
     font-family: "myfont";
-    src: url(https://nikitashakhbazyan.github.io/NickShakh/gaming/font/myfont.otf);
+    src: url(/gaming/font/myfont.otf);
 }
 @font-face {
     font-family:"myfont2";
-    src: url(https://nikitashakhbazyan.github.io/NickShakh/gaming/font/myfont2.ttf);
+    src: url(/gaming/font/myfont2.ttf);
 }
 
 @font-face {
     font-family: "myfont3";
-    src: url(https://nikitashakhbazyan.github.io/NickShakh/gaming/font/myfont3.otf);
+    src: url(/gaming/font/myfont3.otf);
 }
 
 
 
 body {
-    background: rgb(0,65,6);
-background: linear-gradient(90deg, rgba(0,65,6,1) 0%, rgba(4,147,12,1) 35%, rgba(22,148,8,1) 75%, rgba(6,50,0,1) 100%);
+background: rgb(39,97,5,);
+background: radial-gradient(circle, rgba(39,97,5,0.7) 10%, rgba(31,128,32,0.7) 50%, rgba(17,79,3,0.7) 90%);
 margin: 0;
 height: 2500px;
 }
@@ -76,6 +76,7 @@ form {
     flex-direction: column;
     gap: 10px;
 }
+
 #nav-input {
     width: 50%;
     height: 40px;
@@ -112,6 +113,10 @@ main {
     align-items: center;
     gap: 50px;
     flex-direction: column;
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/601/448/desktop-wallpaper-world-of-warcraft-legion-mmorpg-best-game-world-of-warcraft-android.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
 }
 .main-logo {
     width: 40%;
@@ -120,9 +125,11 @@ main {
 
 }
 .main-logo img {
+    padding-top: 10px;
     width: 100%;
     height: 100%;
     border-radius: 40px;
+    opacity: 0.7;
 }
 #button-main {
     padding: 20px 50px;

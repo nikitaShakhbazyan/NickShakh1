@@ -4,16 +4,16 @@
 }
 @font-face {
     font-family: "myfont";
-    src: url(https://nikitashakhbazyan.github.io/NickShakh/gaming/font/myfont.otf);
+    src: url(/gaming/font/myfont.otf);
 }
 @font-face {
     font-family:"myfont2";
-    src: url(https://nikitashakhbazyan.github.io/NickShakh/gaming/font/myfont2.ttf);
+    src: url(/gaming/font/myfont2.ttf);
 }
 
 @font-face {
     font-family: "myfont3";
-    src: url(https://nikitashakhbazyan.github.io/NickShakh/gaming/font/myfont3.otf);
+    src: url(/gaming/font/myfont3.otf);
 }
 
 body {

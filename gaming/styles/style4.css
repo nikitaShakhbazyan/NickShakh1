@@ -1,32 +1,39 @@
 /* contactus */
 @font-face {
   font-family: "myfont";
-  src: url(https://nikitashakhbazyan.github.io/NickShakh/gaming/font/myfont.otf);
+  src: url(/gaming/font/myfont.otf);
 }
 @font-face {
   font-family:"myfont2";
-  src: url(https://nikitashakhbazyan.github.io/NickShakh/gaming/font/myfont2.ttf);
+  src: url(/gaming/font/myfont2.ttf);
 }
 
 @font-face {
   font-family: "myfont3";
-  src: url(https://nikitashakhbazyan.github.io/NickShakh/gaming/font/myfont3.otf);
+  src: url(/gaming/font/myfont3.otf);
 }
 
 body {
 
-   background-color: #929090;
+   /* background-color: #929090; */
+    background-image: url(https://cs9.pikabu.ru/post_img/big/2017/04/29/6/1493453486167890003.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ;
     margin: 0;
   }
   
   nav {
     overflow: hidden;
-    background-color: #333;
+    /* background-color: #333; */
     position: relative;
   }
   
   .topnav #links {
     display: none;
+    justify-content: space-around;
+    text-transform: uppercase;
+    font-weight: bold;
   }
   
   .topnav a {
@@ -53,7 +60,7 @@ body {
   }
   
   .topnav a:hover {
-    color: black;
+    color: bisque;
   }
   
   .refresh-btn {
@@ -85,6 +92,12 @@ body {
   .main-h1-div h1 {
     letter-spacing: 10px;
     font-size: 50px;
+    color: white;
+    font-family: myfont2;
+  }
+  .main-h1-div h3 {
+    color: white;
+    font-family: myfont2;
   }
   .main-div {
     /* background-color: blue; */
@@ -97,10 +110,10 @@ body {
   }
   .div-in-main-div {
     z-index: 3;
-    margin-top: 50px;
+    margin-top: 0px;
     width: 20%;
     height: 300px;
-   background-color: wheat;
+   background-color: rgb(245, 222, 179, 0.6);
     border:#333 3px solid;
     display: flex;
     flex-direction: column;
@@ -165,7 +178,8 @@ input {
     border-radius: 10px;
 }
 #btn:hover {
-    color: blue;
+    color: wheat;
+    border: 5px solid blue;
 }
 footer {
     width: 100%;
@@ -194,6 +208,7 @@ footer {
 letter-spacing: 5px;
 text-transform: uppercase;
 font-weight: bold;
+color:burlywood;
 }
 .footer-div1 {
   width: 100%;
@@ -218,6 +233,7 @@ font-weight: bold;
 .footer-div p {
   width: 70%;
   font-weight: bold;
+  color: whitesmoke;
 }
 .footer-div input::placeholder {
   text-align: center;
