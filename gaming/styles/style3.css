@@ -307,3 +307,40 @@ footer a:hover {
     color: grey;
 }
 
+
+
+@media (min-width:320px) and (max-width: 700px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 600px;
+        max-height: fit-content;
+    }
+    #refresha {
+        display: none;
+    }
+    #links {
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+
+    }
+    header {
+        max-width: 600px;
+        margin-left: auto;
+    }
+    .header-input {
+        display: none;
+    }
+
+    img {
+        max-width: 300px;
+        max-height: 200px;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+}

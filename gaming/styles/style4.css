@@ -257,3 +257,54 @@ color:burlywood;
   color: grey;
   
 }
+
+
+@media (min-width:300px) and (max-width:780px) {
+  body {
+    max-width: 650px;
+    height: auto;
+    /* background-position: center; */
+  }
+  .main-h1-div {
+    text-align: center  ;
+  }
+  .main-div {
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+  .div-in-main-div {
+    width: 60%;
+  }
+
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .footer-main {
+    text-align: center;
+  }
+  .footer-div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 80%; */
+    gap: 20px;
+  }
+  .footer-div  {
+    /* display: none; */
+    width: 80%;
+    gap: 20px;
+  }
+  .footer-div input {
+    margin-bottom: 10px;
+  }
+
+
+}

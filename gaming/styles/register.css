@@ -209,3 +209,48 @@ footer p {
 footer h1 {
     font-family: 'myfont';
 }
+
+
+@media (min-width:300px) and (max-width:750px) {
+    body {
+        max-width: 600px;
+    }
+    header {
+        max-width: 600px;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        /* gap: 10px; */
+    } 
+    .navdiv {
+        display: none;
+    }
+    nav {
+        max-width: 600px;
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+    }
+    input {
+        width: 100%;
+    }
+
+.main-footer {
+        display:flexbox;
+        
+
+    }
+    .footer-div h1 {
+        font-size: 18px;
+    }
+    .footer-div p {
+        font-size: 8px;
+    }
+    .footer-div a {
+        font-size: 12px;
+        letter-spacing: 2px;
+    }
+    
+}

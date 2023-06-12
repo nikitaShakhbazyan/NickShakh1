@@ -297,71 +297,75 @@ footer input::placeholder {
     font-weight: bold;
 }
 
+
+
+
 @media (min-width:220px) and (max-width:780px) {
 
-    body{
-        height: auto;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-self: center;
-    }
-    header {
+body {
+    max-width: 600px;
+}
+header {
+    max-width: 600px;
+}
+main {
+    margin-top: 50px;
+    max-width: 500px;
+}
+footer {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.nav-p {
+    display: none;
+}
+#nav-input {
+    display: none;
+}
+.nav-a-div {
+    max-width: 300px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.main-links-div {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.container1 {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+}
+.container1 img {
+    width: 220px;
+    height: 150px;
+}
+.article-cont1  {
+    /* font-size: 15px; */
+    max-width: 200px;
+}
+article {
+    font-size: 15px;
+}
+.article-cont1 h1 {
+    font-size: 20px;
+    color: wheat;
+}
+.footer-div1 {
+    display: flex;
+    /* grid-template-columns: auto auto; */
+}
+#input-footer {
+    display: none;
+}
+.footer-div {
+    display: grid;
+    grid-template-columns: auto auto;
+}
 
-        display: flex;
-        /* flex-direction: column; */
-    }
-    .nav-a-div {
-        display: flex;
-        flex-direction: row;
-    }
-    .nav-p p {
-        display: none;
-        
-    }
-    .nav-a-div a {
-        font-size: 14px;
-    }
-    #nav-input {
-        display: none;
-    }
-    main {
-        display: flex;
-        flex-direction: column;
-    }
-    .main-links-div {
-        display: flex;
-        flex-direction: column;
-        height: auto;
-        gap: 30px;
-    }
-    .container1 {
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-    }
-    .container2 {
-        height: auto;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;  
-    }
-    .cont2-div {
-        height: 500px;
-        display: flex;
-        justify-content: space-around;
-        align-items: c;
-    }
-    footer {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        height: auto;
-    }
-    .footer-div1 {
-        font-size: 14px;
-    }
 }
