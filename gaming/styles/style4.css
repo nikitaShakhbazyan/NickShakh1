@@ -34,6 +34,7 @@ body {
     justify-content: space-around;
     text-transform: uppercase;
     font-weight: bold;
+    background-color: rgb(22, 21, 21, 0.8);
   }
   
   .topnav a {
